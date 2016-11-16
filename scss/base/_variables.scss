@@ -1,0 +1,46 @@
+
+// Descriptive color variables
+
+$white              : #fff;
+$black              : #000;
+$mine-shaft         : #333333;
+
+// Functional color variables
+
+$color-prim         : $mine-shaft;
+
+$color-text-light   : $white;
+$color-text-dark    : $black;
+
+// Font stacks
+
+$stack-sans-serif   : Helvetica, sans-serif; 
+$stack-helvetica    : "Trebuchet MS", $stack-sans-serif;
+
+// Font size
+
+$h-one              : 2em;
+$h-two              : 1.5em;
+$h-three            : 1.17em;
+
+
+// Font weight
+
+$light              : 300;
+$normal             : 400;
+$bold               : 700;
+ 
+// Margins
+
+$margin-normal      : 20px;
+$margin-wide        : 40px;
+
+//Padding
+
+$padding-normal     : 20px;
+$padding-wide       : 40px;
+
+// Media query breakpoints
+
+$brk-narrow          : '(min-width: 768px)';
+$brk-wide            : '(min-width: 1024px)'; 

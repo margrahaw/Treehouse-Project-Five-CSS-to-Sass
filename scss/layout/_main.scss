@@ -1,0 +1,57 @@
+/* --- PORTFOLIO STYLES --- */
+
+main {
+  margin: 0 10px;
+  @media #{$brk-wide} {
+    border-right: 20px solid #333333;
+    border-left: 20px solid #333333;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.body {
+  @media #{$brk-wide} {
+    background-color: #333333; 
+  }
+}
+
+.portfolio-list {
+  @media #{$brk-wide} {
+    max-width: 1700px;
+    margin: auto; 
+  }
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 100%;
+  min-height: 410px; 
+  @media #{$brk-narrow} {
+    width: 49.9%;
+    margin: 5px 0; }
+  @media #{$brk-wide} {
+    width: 33.3%; }
+  }
+  .responsive p {
+    padding: 0 15px 15px 15px;
+    text-align: center; }
+  .responsive img {
+    max-width: 95%;
+    height: auto; }
+
+.skills {
+  padding-bottom: $padding-normal;
+  border-bottom: 3px solid $black;
+  max-width: 95%;
+  margin: auto; 
+}
+
+.clearfix::after {
+   content: " ";
+   display: table;
+   clear: both;
+}

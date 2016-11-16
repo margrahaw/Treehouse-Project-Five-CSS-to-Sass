@@ -1,0 +1,120 @@
+/* --- HEADER STYLES --- */
+.wrapper {
+  background-color: $mine-shaft;
+  padding-bottom: $padding-wide;
+  margin-bottom: $margin-normal;
+  color: $white;
+  @media #{$brk-wide} {
+     margin-bottom: 0;
+  }
+}
+
+.link-container {
+  @media #{$brk-wide} {
+    float: right;
+    margin-right: $margin-normal; 
+  }
+}
+
+.list-item {
+  background-color: $white;
+  margin: $margin-normal * .5;
+  padding: 10px 0;
+  @media #{$brk-narrow} {
+    display: inline; 
+    background-color: #333333; }
+  @media #{$brk-wide} {
+    display: inline-block;
+    margin-top: $margin-wide; }
+  }
+  .list-item a {
+    font-weight: $bold;
+    text-transform: uppercase; }
+
+
+
+.mary {
+  padding-top: $padding-wide;
+  margin-top: 0;
+  margin-bottom: $margin-wide;
+  @media #{$brk-narrow} {
+    margin-bottom: $margin-normal; 
+  }
+  @media #{$brk-wide} {
+    float: left;
+    padding: 0 $padding-wide;
+    margin-top: $margin-wide;
+    margin-bottom: $margin-wide;
+    display: inline-block;
+  }
+}
+
+.wrapper img {
+  padding-top: $padding-wide;
+  padding-bottom: $padding-normal; 
+}
+
+.bio {
+  padding: 0 $padding-normal;
+  line-height: 2; 
+  @media #{$brk-wide} {
+    padding: 0 $padding-wide;
+    text-align: left;
+    font-size: 105%;
+    max-width: 750px;
+  }
+}
+
+.head-nav div {
+  @media #{$brk-narrow} {
+    background-color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.head-nav a {
+  @media #{$brk-narrow} {
+    color: #ffffff;
+  }
+}
+
+.profile {
+  @media #{$brk-narrow} {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    margin-top: $margin-wide; }
+  @media #{$brk-wide} {
+    margin-top: 0; }
+  }
+  .profile img {
+    @media #{$brk-narrow} {
+      padding: 0;
+      margin-right: $margin-normal;
+      margin-left: $margin-normal; }
+    @media #{$brk-wide} {
+      margin-right: $margin-wide; }
+    }
+  .profile p {
+    @media #{$brk-narrow} {
+      -webkit-flex: 2;
+      font-size: $h-one * 1.2; }  
+  }
+
+.profile-image {
+  @media #{$brk-narrow} {
+    max-width: 300px;
+    max-height: 184px; 
+  }
+  @media #{$brk-wide} {
+    max-width: 367px;
+    max-height: 225px;
+  }
+}
+
+
+
+
+
